@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T02:42:11.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RPkXKKADxjXbYPTa0h5i" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T02:48:51.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2EvCHm-SnEsSrBifpfuj" version="20.0.4" type="github">
   <diagram id="gCbxEYQgM5Y29MNaQwxz" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,34 +26,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-3" value="升降台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="350" width="40" height="530" as="geometry" />
+          <mxGeometry x="500" y="570" width="40" height="530" as="geometry" />
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-8" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;exitX=1.025;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NtFqo2GscR6JvLDcM4IP-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="370" as="sourcePoint" />
-            <mxPoint x="170" y="363" as="targetPoint" />
+            <mxPoint x="560" y="590" as="sourcePoint" />
+            <mxPoint x="560" y="583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-9" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;exitX=1.075;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NtFqo2GscR6JvLDcM4IP-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="161" y="373.25" as="sourcePoint" />
-            <mxPoint x="170" y="860" as="targetPoint" />
+            <mxPoint x="551" y="593.25" as="sourcePoint" />
+            <mxPoint x="560" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-10" value="上限位&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="174" y="350" width="60" height="30" as="geometry" />
+          <mxGeometry x="564" y="570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-11" value="下限位&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="174" y="850" width="60" height="30" as="geometry" />
+          <mxGeometry x="564" y="1070" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-12" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="590" as="sourcePoint" />
-            <mxPoint x="170" y="590" as="targetPoint" />
+            <mxPoint x="540" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NtFqo2GscR6JvLDcM4IP-13" value="校准点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="174" y="580" width="60" height="30" as="geometry" />
+          <mxGeometry x="564" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-14" value="esp32&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="850" y="687.5" width="320" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;shape=link;" edge="1" parent="1" source="NtFqo2GscR6JvLDcM4IP-15" target="NtFqo2GscR6JvLDcM4IP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-15" value="步进电机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-16" value="刹车" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-17" value="步进电机驱动" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-21" value="蓝牙" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-22" value="供电" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-23" value="4个电机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtFqo2GscR6JvLDcM4IP-24" value="好多个气动肌肉" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
